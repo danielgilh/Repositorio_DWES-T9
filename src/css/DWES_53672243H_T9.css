@@ -1,0 +1,199 @@
+
+/*
+ * Formato CSS div cabecera
+ */
+
+ * {
+    box-sizing: border-box;
+
+  }
+
+ #div1 {
+    text-align: left;
+    padding-left: 15px;
+    background-color: #5500AA;
+    color: #FFFFFF;
+
+    border: 1px solid #5500AA;
+
+}
+
+#div1 h3{
+    padding-left: 25px;
+    /*border: 2px solid #ffffff;*/
+}
+/*
+ * -----------------------------------------------------------------------------
+ */
+
+ #divContent{
+    text-align: center;
+    display: flex;
+    width: 98%;
+    height: auto;
+    /*border: 5px solid #14db3f;*/
+}
+ 
+aside{
+    width: 20%;
+    border-right:  5px dashed rgb(128, 128, 128);
+    margin-right: 10px;
+    /*border: 5px solid #14d4db;*/
+}
+
+#divAccesosDirectos{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+
+    /*border: 5px solid #3814db;*/
+}
+aside span{
+    display: block;
+    text-align: left;
+
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    /*border: 5px solid #3814db;*/
+}
+
+aside a:link {
+    text-decoration: none;
+    color: #000000;
+}
+aside a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+aside a:active {
+    text-decoration: underline;
+    color: #000000;
+}
+aside a:visited {
+    color: #000000;
+}
+
+
+#section1{
+    width: 80%;
+    position: relative;
+    text-align: center;
+    /*border: 5px solid #db1425;*/
+}
+
+#articleMainDiv{
+    margin: auto;
+    width: auto;
+    text-align: left;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    /*border: 5px solid #5a14db;*/
+}
+
+.grupoFormTitulo{
+    margin-top: 10px;
+    padding: 10px;
+
+    font-size: 0.9em;
+    font-weight: initial;
+    color: #000000;
+
+    /*border: 5px solid #444444;*/
+}
+
+input{
+    padding: 5px;
+    margin: 10px 10px 0 0;
+    font-size: .9em;
+    /*order: 5px solid #444444;*/
+}
+
+
+.grupoForm, .resultadosFormTitulo{
+    width: auto;
+    padding: 10px;
+    
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.grupoForm{
+    border: 1px solid #000000;
+    margin: 10px;
+
+}
+.resultadosFormText{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+ 
+    text-align: left;
+    font-size: 1.2em;
+    color: #000000;
+
+    /*border: 3px solid #4bb110;*/
+}
+
+/*
+ * ------------------------------
+ *    Detalle de los articulos
+ * ------------------------------
+ */
+
+#div_datosBBDD{
+    position: relative;
+    /*border: 1px solid #4bb110;*/
+}
+
+#span_TitulosBBDD{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.span_SubTitulosBBDD{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0px 5px 45px;
+}
+
+.span_Elemento1BBDD{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 0px 5px 30px;
+}
+
+.span_Elementos2BBDD{
+    position: initial;
+
+    font-size: 18px;
+    font-weight: normal;
+    /*margin: 100px;*/
+    padding: 5px 0px 5px 60px;
+    
+    /*border: 1px solid #4bb110;*/
+
+}
+
+
+footer{
+    font-size: 25px;
+    font-weight: bold;
+
+    position: relative;
+    /*position: fixed;*/
+    left: 0%;
+    bottom: 0%;
+
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+}
